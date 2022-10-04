@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Postdoctoral Research Fellow at the <a href='https://aibn.uq.edu.au'>Australian Institute for Bioengineering and Nanotechnology</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a physicist and coder who specializes in all molecular dynamics simulations weird and unusual. I currently focus on developing new theoretical methods in [constant potential molecular dynamics](/projects/constant-potential-molecular-dynamics/) and [nonequilibrium molecular dynamics](/projects/nonequilibrium-molecular-dynamics/), together with implementations in [LAMMPS](https://www.lammps.org) using C++.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am also a passionate [Research Software Engineer](https://researchsoftware.org). Current academic pathways provide little recognition or progression for the work RSEs, like myself, put into developing open source software and making it accessible to the wider research community. I hope to somehow help to change that! I've joined the [RSE Association of Australia and New Zealand](https://rse-aunz.github.io) and I'm keeping an eye out for opportunities to contribute.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+When I'm not at work I am kept busy by two young children, an air fryer, and a growing assortment of obsolete devices which I will someday transform back into something useful. I regularly answer questions about molecular dynamics at the [MatSci forums](https://matsci.org/c/lammps/40) and [Matter Modeling on StackExchange](https://mattermodeling.stackexchange.com). I am a Christian scientist (not a Christian Scientist!) and I regularly worship at [St Lucia Evangelical Church](https://sle.church).
