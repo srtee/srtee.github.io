@@ -12,8 +12,8 @@ Thus, molecular dynamics could encourage more diversity and equity in global sci
 However, *expertise* takes longer to diffuse and share than code, hampering the creation of an open community of molecular dynamics modellers.
 
 [GO FAIR](https://www.go-fair.org/go-fair-initiative/) aims to make data Findable, Accessible, Interoperable and Reusable.
-Molecular dynamics practitioners are beginning to discuss how FAIR principles can apply to molecular dynamics data and codes[^1].
-I'm the first to admit that I was previously a very unFAIR scientist, and I am working on my own data and code to improve accessibility.
+Molecular dynamics practitioners are actively working to apply FAIR principles to molecular dynamics data and codes[^1].
+I'm the first to admit that I was previously a far less FAIR scientist, and I am working on my own data and code to improve accessibility.
 This includes maintaining this website to [document my journey](/blog/tag/doco)[^3] towards reproducible molecular dynamics science!
 
 Besides FAIR *data*, FAIRness can also be applied to the molecular dynamics *community* more generally, in terms of creating a sustainable and welcoming community.
