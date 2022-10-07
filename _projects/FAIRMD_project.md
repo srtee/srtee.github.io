@@ -19,9 +19,8 @@ This includes maintaining this website to [document my journey](/blog/tag/doco)[
 Besides FAIR *data*, FAIRness can also be applied to the molecular dynamics *community* more generally, in terms of creating a sustainable and welcoming community.
 How can the community of open source molecular dynamics developers and practitioners improve on welcoming newcomers, quickly upskilling them remotely, and encouraging contributions back to the source code?
 What if newcomers always included their program version, extended logs, and minimal working examples when they asked questions?
-And what if experienced developers never had to say "RTFM" or "PEBKAC"[^2], because they always had more emotionally efficient workflows available for helping others?
+And what if experienced developers never told people "the code *is* the documentation" or "the problem exists between the keyboard and the chair", because they always had more emotionally efficient workflows available for helping others?
 I have no idea what a FAIR community would look like, but I want to do my part in making it happen!
 
-[^1]: (https://www.nature.com/articles/s41586-022-04501-x)
-[^3]: "Doco" is my made-up Australian slang for "documentation"!
-[^2]: Look it up -- if you've ever been treated badly like this when entering an open source community, I'm so sorry!
+[^1]: [FAIR data enabling new horizons for materials research](https://www.nature.com/articles/s41586-022-04501-x)
+[^3]: "Doco" is my made-up [Australian slang](https://www.fluentu.com/blog/english/australian-slang-words/) for "documentation"!
