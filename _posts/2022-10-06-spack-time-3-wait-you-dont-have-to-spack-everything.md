@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spack Time 3: Wait, you don't have to Spack everything?"
-date: 2022-10-06 10:40:00 +1000
+date: 2022-10-13 10:40:00 +1000
 tags: spack doco
 ---
 
@@ -31,7 +31,7 @@ The main burden in turn comes from OneAPI MPI trying to build [UCX](https://gith
 ## Fine, I'll do it myself
 
 Of course I shouldn't have to do that! It turns out that Spack *will* let me install OneAPI MPI from elsewhere, as long as I can show it that I know what I'm doing.
-So I installed OneAPI MPI on my own (which did not require me to build a brand new Linux), created a clean Spack environment, and then used `spack config edit` to set up my preferences:
+So I installed OneAPI MPI on my own (which did *not* require me to build a brand new Linux), created a clean Spack environment, and then used `spack config edit` to set up my preferences:
 
 ```
 ...
@@ -51,4 +51,16 @@ With that set up (and a quick jaunt to GitHub to grab Spack's `develop` branch),
 
 ## Conclusion: Installation Workflow
 
-With all 
+After all this messing around, here are the steps I would take to start a new project.
+As a reminder, this is a *maintenance* project where I am improving an already-existing code base, and it is advantageous to have a reference build with controlled environment.
+
+1. `spack env create [environ]`: make and activate a new Spack environment to keep track of build.
+2. `spack spec [package+descriptors]`: check how Spack will build a particular package.
+3. `spack add [package+descriptors]`: add the package to the environment.
+4. `spack concretize`: confirm how Spack will build out the environment, using either `--fresh` to prioritize building new configurations of everything or `--reuse` to rebuild as little as possible.
+5. (If we have cooked ourselves a fine dependency spaghetti, try to install the worst packages by hand outside Spack and then bring them in with `spack external find -p`.
+6. `spack install`, and profit!
+
+## Next time:
+
+I modify the process to start *developing* code!
