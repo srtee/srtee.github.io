@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Research Fellow at the <a href='https://aibn.uq.edu.au'>Australian Institute for Bioengineering and Nanotechnology</a>
+subtitle: <a href='https://experts.griffith.edu.au/42874-shern-tee'>Lecturer</a> at <a href='https://www.griffith.edu.au/'>Griffith University</a>
 
 profile:
   align: right
