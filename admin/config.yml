@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: srtee/srtee.github.io
+  base_url: https://sveltia-cms-auth.shernren.workers.dev/
   branch: main # branch to update
 media_folder: "img/uploads"
 collections:
