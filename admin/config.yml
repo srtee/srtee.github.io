@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: main # branch to update
+media_folder: "img/uploads"
+collections:
+  - name: "posts" # /admin/collections/blog
+    label: "Posts" # UI
+    folder: "_posts" # folder path
+    create: true # let users create new docos
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # filename template
+    fields: # front matter fields
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

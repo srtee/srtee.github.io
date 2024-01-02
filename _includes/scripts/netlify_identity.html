@@ -1,0 +1,14 @@
+{%- if site.enable_header_netlify_identity -%}
+  <!-- return users to admin after login -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+           });
+        }
+      });
+    }
+  </script>
+{%- endif -%}

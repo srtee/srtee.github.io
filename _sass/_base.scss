@@ -243,6 +243,26 @@ blockquote {
   }
 }
 
+#netlifyDropdown {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
+#netlifyDropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.fa-sign-in-alt {
+  padding-left: 10px;
+  padding-top: 12px;
+  display : block;
+}
+
 // Social (bottom)
 
 .social {

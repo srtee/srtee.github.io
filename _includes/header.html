@@ -99,11 +99,22 @@
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
+                  <i class="fas fa-moon" title="Change to Dark theme"></i>
+                  <i class="fas fa-sun" title="Change to Light theme"></i>
                 </button>
               </li>
               {%- endif %}
+
+	      {%- if site.enable_header_netlify_identity %}
+	      <li class="dropdown">
+                <button class="nav-link" type="button" title="Netlify Identity" id="netlifyDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		  <i class="fas fa-sign-in-alt"></i>
+		</button>
+		<div class="dropdown-menu dropdown-menu-right" aria-labelledby="netlifyDropdown">
+		  <div data-netlify-identity-menu></div>
+		</div>
+              </li>
+	      {%- endif %}
             </ul>
           </div>
         </div>

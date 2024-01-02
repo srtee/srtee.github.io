@@ -310,7 +310,7 @@ enable_navbar_social:       false  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-
+enable_header_netlify_identity:    true   # enables Netlify Identity button in header
 
 # -----------------------------------------------------------------------------
 # Library versions
