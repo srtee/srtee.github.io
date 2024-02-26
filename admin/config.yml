@@ -16,3 +16,19 @@ collections:
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "site/_pages/about.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Profile", name: "profile", widget: "hidden"}
+          - {label: "News", name: "news", widget: "boolean"}
+          - {label: "Selected Papers", name: "selected_papers", widget: "boolean"}
+          - {label: "Social", name: "social", widget: "boolean"}
+          - {label: "Body", name: "body", widget: "markdown"}
